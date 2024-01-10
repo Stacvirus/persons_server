@@ -1,0 +1,29 @@
+Get http://localhost:3001/api/notes
+###
+Delete http://localhost:3001/api/notes/2
+###
+Post http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "vs code rest client is a perfect tool",
+    "important": true
+}
+
+# [
+# {
+# id: 1,
+# content: "HTML is easy",
+# important: true
+# },
+# {
+# id: 2,
+# content: "Browser can execute only JavaScript",
+# important: false
+# },
+# {
+# id: 3,
+# content: "GET and POST are the most important methods of HTTP protocol",
+# important: true
+# }
+# ]
